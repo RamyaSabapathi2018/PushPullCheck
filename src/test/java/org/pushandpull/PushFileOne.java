@@ -2,7 +2,10 @@ package org.pushandpull;
 
 public class PushFileOne {
 	public static void main(String[] args) {
-		int c=30;
+	System.out.println("Checking for Conflict check");
+	String s= "Conflict check";
+	System.out.println(s.indexOf(4));
+	int c=30;
 		int d= 45;
 		int temp=0;
 		temp = c;
